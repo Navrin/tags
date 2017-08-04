@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/common-tags": "^1.2.5",
+    "@types/node": "^8.0.19",
+    "common-tags": "^1.4.0",
+    "html-to-element": "^1.0.0",
+    "i18n": "^0.8.3",
+    "typescript": "^2.4.2"
+  },
+  "name": "example-template-tags",
+  "version": "1.0.0",
+  "description": "A demonstration of what template tags can do",
+  "main": "dist/src/index.js",
+  "repository": "https://www.github.com/Navrin/tags",
+  "author": "Navrin Thomas",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha-typescript-watch"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/i18n": "^0.8.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
+    "mocha-typescript": "^1.1.7",
+    "ts-node": "^3.3.0"
+  }
+}
